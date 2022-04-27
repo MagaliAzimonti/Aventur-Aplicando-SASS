@@ -1,0 +1,91 @@
+/* font-family:'Josefin Sans', sans-serif;
+font-family: 'Mulish', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Mulish:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+/* ESTILOS HEADER */
+div header {
+  background-image: url(../images/wallpaper_azul_oscuro_1920x1200_124.jpeg); }
+
+div .header__title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px; }
+
+/* ESTILOS MAIN INDEX */
+main #carousel1 {
+  height: 230px;
+  background-image: url(../images/1_kfoZJqoU5IDWz-u7ZclDtQ.jpeg);
+  background-position: center;
+  background-size: cover; }
+
+main #carousel2 {
+  height: 230px;
+  background-image: url(../images/image2.jpg);
+  background-position: center;
+  background-size: cover; }
+
+main #carousel3 {
+  height: 230px;
+  background-image: url(../images/homeimage3.jpg);
+  background-position: center;
+  background-size: cover; }
+
+main #carousel4 {
+  height: 230px;
+  background-image: url(../images/homeimage4.jpg);
+  background-position: center;
+  background-size: cover; }
+
+main mark {
+  opacity: 0.75; }
+
+main .home__images .first__row {
+  padding: 20px 0px; }
+
+main .home__images .second__row {
+  padding: 20px 0px; }
+
+main .home__images .third__row {
+  padding: 20px 0px;
+  margin-bottom: 20px; }
+
+main .home__images img {
+  height: 180px; }
+
+/* Media queries */
+@media screen and (min-width: 400px) {
+  main .home__images img {
+    height: 250px; } }
+
+@media screen and (min-width: 768px) {
+  main #carousel1 {
+    height: 400px; }
+  main #carousel2 {
+    height: 400px; }
+  main #carousel3 {
+    height: 400px; }
+  main #carousel4 {
+    height: 400px; }
+  main .home__images img {
+    height: 150px; } }
+
+@media screen and (min-width: 1000px) {
+  main .home__images img {
+    height: 250px; } }
+
+/* TOP BUTTON */
+.home__top--button {
+  background-color: aliceblue;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px black;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem; }
